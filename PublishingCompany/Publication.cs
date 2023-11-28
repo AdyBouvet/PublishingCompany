@@ -22,7 +22,7 @@
             Pages = pages;
             return Pages;            
         }
-
+        
         public string Publish()
         {
             PublishDate = DateTime.Now;

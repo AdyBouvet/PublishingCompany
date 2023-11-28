@@ -1,7 +1,8 @@
-﻿using PublishingCompany;
+﻿using PublishingCompany.Basic_example;
+using PublishingCompany.Interface;
 
-Book book = new("Tale of two cities", "Company", "Bob");
-Publication publication = new("Tale of two cities", "Company");
+//BasicExample.RunParentChildExample();
+//BasicExample.RunParentChildGrandchildExample();
+//BasicExample.RunBase();
 
-Console.WriteLine(book.ToString());
-Console.WriteLine(publication.ToString());
+InterfaceExamples.InterfaceList();
