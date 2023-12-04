@@ -2,6 +2,14 @@
 {
     public static class BasicExample
     {
+
+        public static void BasicExampleMain()
+        {
+            RunParentChildExample();
+            //RunParentChildGrandchildExample();
+            //RunBase();
+        }
+
         public static void RunParentChildExample()
         {
 

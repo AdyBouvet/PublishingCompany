@@ -2,9 +2,9 @@
 using PublishingCompany.Interface;
 using PublishingCompany.VehicleTasks;
 
-//BasicExample.RunParentChildExample();
-//BasicExample.RunParentChildGrandchildExample();
-//BasicExample.RunBase();
+//BasicExample.BasicExampleMain();
 //InterfaceExamples.InterfaceList();
 
+
 Main.Run();
+PublishingCompany.DinnerTasks.Main.DinnerMain();
