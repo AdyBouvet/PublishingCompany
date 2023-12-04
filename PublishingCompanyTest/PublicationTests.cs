@@ -1,5 +1,5 @@
 ﻿using FluentAssertions;
-using PublishingCompany;
+using PublishingCompany.Publication;
 
 namespace PublishingCompanyTest
 {

@@ -1,5 +1,4 @@
 ﻿using FluentAssertions;
-using PublishingCompany;
 
 namespace PublishingCompanyTest
 {

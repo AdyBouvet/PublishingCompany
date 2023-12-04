@@ -1,4 +1,4 @@
-﻿namespace PublishingCompany
+﻿namespace PublishingCompany.Publication
 {
     public class Magazine : Publication
     {

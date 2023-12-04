@@ -1,9 +1,8 @@
-﻿namespace PublishingCompany
+﻿namespace PublishingCompany.Publication
 {
     public class Publication
     {
-
-        public Publication(string title, string publisher) 
+        public Publication(string title, string publisher)
         {
             Title = title;
             Publisher = publisher;
@@ -20,9 +19,9 @@
             if (pages < 0)
                 throw new ArgumentOutOfRangeException($"Pages amount must be greater than 0. Was {pages}");
             Pages = pages;
-            return Pages;            
+            return Pages;
         }
-        
+
         public string Publish()
         {
             PublishDate = DateTime.Now;
