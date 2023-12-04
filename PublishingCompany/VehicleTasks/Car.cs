@@ -1,9 +1,6 @@
 ﻿namespace PublishingCompany.VehicleTasks
 {
-    public class Car : Vehicle
+    public class Car
     {
-        public Car(string name) : base(name)
-        {
-        }
     }
 }
